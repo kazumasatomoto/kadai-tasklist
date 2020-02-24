@@ -8,7 +8,7 @@ class TasksController < ApplicationController
   end
 
   def new
-      @task = Task.find.new
+      @task = Task.new
   end
 
   def create
